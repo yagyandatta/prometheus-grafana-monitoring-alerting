@@ -2,7 +2,7 @@
 
 # Exit immediately if a command exits with a non-zero status
 set -e
-
+        
 # Function to print messages in colored format
 info() {
     echo -e "\e[34m[INFO]\e[0m $1"
